@@ -5,6 +5,9 @@
 
 #include "orx.h"
 #include "orxExtensions.h"
+#include "paddle/Paddle.h"
+
+Paddle* m_paddle;
 
 #ifdef __orxMSVC__
 
@@ -24,6 +27,7 @@ void orxFASTCALL Update(const orxCLOCK_INFO *_pstClockInfo, void *_pContext)
     // Send close event
     orxEvent_SendShort(orxEVENT_TYPE_SYSTEM, orxSYSTEM_EVENT_CLOSE);
   }
+
 }
 
 /** Camera Update function, it has been registered to be called every tick of the core clock, after physics & objects have been updated
@@ -43,6 +47,8 @@ void orxFASTCALL CameraUpdate(const orxCLOCK_INFO *_pstClockInfo, void *_pContex
     orxVECTOR vPosition;
     orxObject_SetPosition(pstMainCamera, orxVector_Round(&vPosition, orxObject_GetPosition(pstMainCamera, &vPosition)));
   }
+
+  m_paddle->Update();
 }
 
 /** Init function, it is called when all orx's modules have been initialized
@@ -65,7 +71,7 @@ orxSTATUS orxFASTCALL Init()
   orxClock_Register(orxClock_Get(orxCLOCK_KZ_CORE), Update, orxNULL, orxMODULE_ID_MAIN, orxCLOCK_PRIORITY_NORMAL);
   orxClock_Register(orxClock_Get(orxCLOCK_KZ_CORE), CameraUpdate, orxNULL, orxMODULE_ID_MAIN, orxCLOCK_PRIORITY_LOWER);
 
-  orxObject_CreateFromConfig("PaddleObject");
+  m_paddle = new Paddle("PaddleObject");
 
   orxObject_CreateFromConfig("WallObject");
 
