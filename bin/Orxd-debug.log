@@ -1,0 +1,12 @@
+[14:24:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:24:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:24:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Orx -> Orx (Debug)
+[14:24:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:33:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:33:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:33:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:33:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:34:09] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:34:09] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:34:09] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:34:09] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
