@@ -10,3 +10,115 @@
 [14:34:09] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
 [14:34:09] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
 [14:34:09] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:44:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:44:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:44:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:44:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:45:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:45:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:45:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:45:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:45:51] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:45:51] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:45:51] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:45:51] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:48:05] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:48:05] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:48:05] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:48:05] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:51:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:51:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:51:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:51:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:52:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:52:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:52:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:52:10] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:52:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:52:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:52:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:52:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:52:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:52:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:52:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:52:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:53:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:53:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:53:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:53:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:53:28] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:53:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:53:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:53:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:53:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:53:48] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:54:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:54:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:54:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:54:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:54:22] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:54:33] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:54:34] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:54:34] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:54:34] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:54:34] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:54:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:54:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:54:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:54:48] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:54:48] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:55:01] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:55:01] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:55:01] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:55:01] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:55:01] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:55:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:55:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:55:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:55:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:55:16] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:55:38] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:55:38] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:55:38] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:55:38] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:55:38] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:55:46] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:55:46] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:55:46] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:55:46] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:55:46] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[14:55:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[14:55:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[14:55:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[14:55:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[14:55:57] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[15:00:36] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[15:00:36] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[15:00:36] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[15:00:36] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[15:00:36] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[15:00:36] [OBJECT] [orxObject.c:orxObject_CreateFromConfig(7458)] Failed to find config section named LowWallObject.
+[15:01:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[15:01:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[15:01:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[15:01:58] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[15:01:58] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[15:01:58] [OBJECT] [orxObject.c:orxObject_CreateFromConfig(7458)] Failed to find config section named LowWallObject.
+[15:02:08] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[15:02:08] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[15:02:08] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[15:02:08] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[15:02:08] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[15:02:09] [OBJECT] [orxObject.c:orxObject_CreateFromConfig(7458)] Failed to find config section named LowWallObject.
+[15:02:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[15:02:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[15:02:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[15:02:22] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[15:02:22] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[15:02:23] [OBJECT] [orxObject.c:orxObject_CreateFromConfig(7458)] Failed to find config section named LowWallObject.
+[15:02:29] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[15:02:29] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[15:02:29] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[15:02:29] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[15:02:29] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[15:02:29] [OBJECT] [orxObject.c:orxObject_CreateFromConfig(7458)] Failed to find config section named LowWallObject.

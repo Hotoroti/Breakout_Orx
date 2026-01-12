@@ -65,7 +65,7 @@ orxSTATUS orxFASTCALL Init()
   orxClock_Register(orxClock_Get(orxCLOCK_KZ_CORE), Update, orxNULL, orxMODULE_ID_MAIN, orxCLOCK_PRIORITY_NORMAL);
   orxClock_Register(orxClock_Get(orxCLOCK_KZ_CORE), CameraUpdate, orxNULL, orxMODULE_ID_MAIN, orxCLOCK_PRIORITY_LOWER);
 
-  // Create the scene
+  orxObject_CreateFromConfig("PaddleObject");
   orxObject_CreateFromConfig("Scene");
 
   // Done!
