@@ -122,3 +122,23 @@
 [15:02:29] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
 [15:02:29] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
 [15:02:29] [OBJECT] [orxObject.c:orxObject_CreateFromConfig(7458)] Failed to find config section named LowWallObject.
+[16:00:39] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[16:00:39] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[16:00:39] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[16:00:39] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[16:00:39] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[16:05:35] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[16:05:35] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[16:05:35] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[16:05:35] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[16:05:35] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[16:05:36] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[16:05:36] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[16:05:56] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Orxd.ini]: Begin include @Orx.ini@
+[16:05:56] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Orxd.ini]: End include @Orx.ini@
+[16:05:56] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Orxd.ini]: <Display.Title> = Breakout (Debug) -> Orx (Debug)
+[16:05:56] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Orxd.ini]: <Bundle.ExcludeList> += Orxd.ini
+[16:05:56] [CONFIG] [orxConfig.c:orxConfig_CheckTypo(1646)] [Display]: <ScreennHeight> was found instead of requested key <ScreenHeight>, typo?
+[16:05:57] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[16:05:57] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[16:05:57] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
