@@ -7,9 +7,11 @@
 #include "orxExtensions.h"
 #include "paddle/Paddle.h"
 #include "ball/Ball.h"
+#include "wall/Wall.h"
 
 Paddle* m_paddle;
 Ball* m_ball;
+Wall* m_wall;
 
 #ifdef __orxMSVC__
 
@@ -62,10 +64,13 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
     pstSenderObject = orxOBJECT(_pstEvent->hSender);
     pstRecipientObject = orxOBJECT(_pstEvent->hRecipient);
 
-    orxSTRING senderObjectName = (orxSTRING)orxObject_GetName(pstSenderObject);
+    orxConfig_PushSection((orxSTRING)orxObject_GetName(pstSenderObject));
+    orxSTRING objectType = (orxSTRING)orxConfig_GetString("ObjectType");
+    orxConfig_PopSection();
+
     orxSTRING recipientObjectName = (orxSTRING)orxObject_GetName(pstRecipientObject);
 
-    if (orxString_Compare(senderObjectName, "WallObject") == 0) {
+    if (orxString_Compare(objectType, "wall") == 0) {
       orxObject_SetLifeTime(pstSenderObject, 0);
     }
 
@@ -101,7 +106,7 @@ orxSTATUS orxFASTCALL Init()
 
   m_paddle = new Paddle("PaddleObject");
 
-  orxObject_CreateFromConfig("WallObject");
+  m_wall = new Wall();
   m_ball = new Ball("BallObject");
 
   // Done!
