@@ -1,6 +1,6 @@
 /**
- * @file Orx.cpp
- * @date 12-Jan-2026
+ * @file Breakout_Orx.cpp
+ * @date 13-Jan-2026
  */
 
 #include "orx.h"
@@ -28,6 +28,7 @@ void orxFASTCALL Update(const orxCLOCK_INFO *_pstClockInfo, void *_pContext)
     orxEvent_SendShort(orxEVENT_TYPE_SYSTEM, orxSYSTEM_EVENT_CLOSE);
   }
 
+  m_paddle->Update();
 }
 
 /** Camera Update function, it has been registered to be called every tick of the core clock, after physics & objects have been updated
@@ -47,8 +48,6 @@ void orxFASTCALL CameraUpdate(const orxCLOCK_INFO *_pstClockInfo, void *_pContex
     orxVECTOR vPosition;
     orxObject_SetPosition(pstMainCamera, orxVector_Round(&vPosition, orxObject_GetPosition(pstMainCamera, &vPosition)));
   }
-
-  m_paddle->Update();
 }
 
 /** Init function, it is called when all orx's modules have been initialized
