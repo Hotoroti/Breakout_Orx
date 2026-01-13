@@ -11,12 +11,14 @@ public:
   void OnCollision();
 
 private:
-  orxOBJECT* m_Object;
-  orxVECTOR m_Direction;
-  orxVECTOR m_Speed;
+  orxOBJECT* m_Object = nullptr;
+  orxVECTOR m_Direction = orxVECTOR_0;
+  orxVECTOR m_Speed = orxVECTOR_0;
+  orxVECTOR m_CurrentPos = orxVECTOR_0;
   orxFLOAT  m_BALLSPEED = 200;
+  orxFLOAT m_ScreenWidth = 0, m_ScreenHeight = 0;
 
-  bool m_HasStarted;
+  bool m_HasStarted = false;
 
   void Start();
 };

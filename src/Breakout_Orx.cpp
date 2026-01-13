@@ -65,7 +65,7 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
     orxSTRING recipientObjectName = (orxSTRING)orxObject_GetName(pstRecipientObject);
 
     if (orxString_Compare(senderObjectName, "WallObject") == 0) {
-      
+      orxObject_SetLifeTime(pstSenderObject, 0);
     }
 
     if (orxString_Compare(recipientObjectName, "BallObject") == 0) {

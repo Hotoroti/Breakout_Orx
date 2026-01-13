@@ -1,9 +1,7 @@
 #include "Ball.h"
 Ball::Ball(const orxSTRING configName) {
   m_Object = orxObject_CreateFromConfig(configName);
-  orxVector_Set(&m_Direction, 0, 0, 0);
-  orxVector_Set(&m_Speed, 0, 0, 0);
-  m_HasStarted = false;
+  orxDisplay_GetScreenSize(&m_ScreenWidth, &m_ScreenHeight);
 }
 
 Ball::~Ball() {
@@ -17,6 +15,14 @@ void Ball::Update() {
   if (!m_HasStarted && orxInput_HasBeenActivated("StartGame")) {
     Start();
   }
+  orxObject_GetWorldPosition(m_Object, &m_CurrentPos);
+  if (m_CurrentPos.fX > 0.5 * m_ScreenWidth || m_CurrentPos.fX < -0.5 * m_ScreenWidth) {
+    m_Direction.fX *= -1;
+  }
+
+  if (m_CurrentPos.fY < -0.5 * m_ScreenHeight) {
+    m_Direction.fY *= -1;
+  }
 
   m_Speed.fX = m_Direction.fX * m_BALLSPEED;
   m_Speed.fY = m_Direction.fY * m_BALLSPEED;
@@ -29,6 +35,6 @@ void Ball::OnCollision() {
 }
 
 void Ball::Start() {
-  orxVector_Set(&m_Direction, 0, -1, 0);
+  orxVector_Set(&m_Direction, 1, 1, 0);
   m_HasStarted = true;
 }
