@@ -2,6 +2,7 @@
 Paddle::Paddle(const  orxSTRING configName) {
   m_Object = orxObject_CreateFromConfig(configName);
   orxVector_Set(&m_Direction, 0, 0, 0);
+  orxVector_Set(&m_Speed, 0, 0, 0);
 }
 
 Paddle::~Paddle() {
@@ -16,8 +17,8 @@ void Paddle::Update() {
     (orxInput_IsActive("GoRight") ? 1.0f : 0.0f -
       (orxInput_IsActive("GoLeft") ? 1.0f : 0.0f));
 
-  m_Direction.fX *= m_PADDLESPEED;
+  m_Speed.fX = m_Direction.fX * m_PADDLESPEED;
 
-  orxObject_SetSpeed(m_Object, &m_Direction);
+  orxObject_SetSpeed(m_Object, &m_Speed);
 }
 

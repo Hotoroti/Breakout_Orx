@@ -6,8 +6,10 @@
 #include "orx.h"
 #include "orxExtensions.h"
 #include "paddle/Paddle.h"
+#include "ball/Ball.h"
 
 Paddle* m_paddle;
+Ball* m_ball;
 
 #ifdef __orxMSVC__
 
@@ -29,6 +31,7 @@ void orxFASTCALL Update(const orxCLOCK_INFO *_pstClockInfo, void *_pContext)
   }
 
   m_paddle->Update();
+  m_ball->Update();
 }
 
 /** Camera Update function, it has been registered to be called every tick of the core clock, after physics & objects have been updated
@@ -50,6 +53,29 @@ void orxFASTCALL CameraUpdate(const orxCLOCK_INFO *_pstClockInfo, void *_pContex
   }
 }
 
+orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
+{
+  if (_pstEvent->eID == orxPHYSICS_EVENT_CONTACT_ADD) {
+    orxOBJECT* pstRecipientObject, * pstSenderObject;
+
+    pstSenderObject = orxOBJECT(_pstEvent->hSender);
+    pstRecipientObject = orxOBJECT(_pstEvent->hRecipient);
+
+    orxSTRING senderObjectName = (orxSTRING)orxObject_GetName(pstSenderObject);
+    orxSTRING recipientObjectName = (orxSTRING)orxObject_GetName(pstRecipientObject);
+
+    if (orxString_Compare(senderObjectName, "WallObject") == 0) {
+      
+    }
+
+    if (orxString_Compare(recipientObjectName, "BallObject") == 0) {
+      m_ball->OnCollision();
+    }
+  }
+  return orxSTATUS_SUCCESS;
+}
+
+
 /** Init function, it is called when all orx's modules have been initialized
  */
 orxSTATUS orxFASTCALL Init()
@@ -70,9 +96,12 @@ orxSTATUS orxFASTCALL Init()
   orxClock_Register(orxClock_Get(orxCLOCK_KZ_CORE), Update, orxNULL, orxMODULE_ID_MAIN, orxCLOCK_PRIORITY_NORMAL);
   orxClock_Register(orxClock_Get(orxCLOCK_KZ_CORE), CameraUpdate, orxNULL, orxMODULE_ID_MAIN, orxCLOCK_PRIORITY_LOWER);
 
+  orxEvent_AddHandler(orxEVENT_TYPE_PHYSICS, PhysicsEventHandler);
+
   m_paddle = new Paddle("PaddleObject");
 
   orxObject_CreateFromConfig("WallObject");
+  m_ball = new Ball("BallObject");
 
   // Done!
   return orxSTATUS_SUCCESS;

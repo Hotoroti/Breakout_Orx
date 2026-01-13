@@ -11,6 +11,7 @@ public:
 private:
   orxOBJECT* m_Object;
   orxVECTOR m_Direction;
+  orxVECTOR m_Speed;
   orxFLOAT  m_PADDLESPEED = 50;
 };
 
