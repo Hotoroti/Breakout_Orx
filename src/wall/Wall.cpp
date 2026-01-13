@@ -1,4 +1,5 @@
 #include "Wall.h"
+#include <vector>
 
 Wall::Wall() {
   orxConfig_Load("Wall.ini");
@@ -15,6 +16,7 @@ void Wall::Init() {
   orxVECTOR startPosition = orxVECTOR_0;
   orxVECTOR spacing = orxVECTOR_0;
   orxOBJECT* tempObject = nullptr;
+  orxSTRING objectName = orxNULL;
 
   orxConfig_PushSection("Grid");
 
@@ -24,6 +26,20 @@ void Wall::Init() {
   orxU32 countY = orxConfig_GetU32("CountY");
 
   orxConfig_PopSection();
+
+  std::vector<const orxCHAR*> wallObjects;
+
+  orxConfig_PushSection("WallLayers");
+
+  for (orxU32 y = 0; y < countY; y++) {
+    char key[32];
+    sprintf(key, "Layer%u", y);
+    const char* wallName = orxConfig_GetString(key);
+    wallObjects.push_back(wallName ? wallName : "RedWallObject"); // fallback
+  }
+
+  orxConfig_PopSection();
+
   // 🔹 Auto-center on X
   orxFLOAT totalWidth = (countX > 1)
     ? (spacing.fX * (countX - 1))
@@ -32,18 +48,18 @@ void Wall::Init() {
   orxFLOAT startX = -totalWidth * 0.5f;
 
 
-  for (orxU32 x = 0; x < countX; x++) {
-    placePosition.fX = startX + (spacing.fX * x);
-    for (orxU32 y = 0; y < countY; y++) {
+  for (orxU32 y = 0; y < countY; y++) {
+    placePosition.fY = startPosition.fY + (spacing.fY * y);
 
-      placePosition.fY = startPosition.fY + (spacing.fY * y);
+    objectName = (orxSTRING)wallObjects[y];
 
-      orxOBJECT* tempObject = orxObject_CreateFromConfig("RedWallObject");
+    for (orxU32 x = 0; x < countX; x++) {      
+      placePosition.fX = startX + (spacing.fX * x);
+
+      orxOBJECT* tempObject = orxObject_CreateFromConfig(objectName);
       orxObject_SetPosition(tempObject, &placePosition);
     }
   }
-
-
 }
 
 orxU32 Wall::GetGridValue(const orxSTRING key) {
