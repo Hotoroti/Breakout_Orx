@@ -12,10 +12,10 @@ Ball::~Ball() {
 }
 
 void Ball::Update() {
+  orxObject_GetWorldPosition(m_Object, &m_CurrentPos);
   if (!m_HasStarted && orxInput_HasBeenActivated("StartGame")) {
     Start();
-  }
-  orxObject_GetWorldPosition(m_Object, &m_CurrentPos);
+  }  
   if (m_CurrentPos.fX > 0.5 * m_ScreenWidth || m_CurrentPos.fX < -0.5 * m_ScreenWidth) {
     m_Direction.fX *= -1;
   }
@@ -35,6 +35,17 @@ void Ball::OnCollision() {
 }
 
 void Ball::Start() {
-  orxVector_Set(&m_Direction, 1, 1, 0);
+  orxVector_Set(&m_Direction, 1, -1, 0);
   m_HasStarted = true;
+}
+
+void Ball::FollowPaddle(orxOBJECT* paddleObject) {
+  if (m_HasStarted)
+    return;
+
+  orxVECTOR paddlePos = orxVECTOR_0;
+  orxObject_GetWorldPosition(paddleObject, &paddlePos);
+
+  orxVECTOR newPos = { paddlePos.fX, 350, m_CurrentPos.fZ };
+  orxObject_SetWorldPosition(m_Object, &newPos);
 }

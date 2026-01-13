@@ -31,6 +31,7 @@ void orxFASTCALL Update(const orxCLOCK_INFO *_pstClockInfo, void *_pContext)
   }
 
   m_paddle->Update();
+  m_ball->FollowPaddle(m_paddle->object);
   m_ball->Update();
 }
 

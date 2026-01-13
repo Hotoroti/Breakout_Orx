@@ -10,6 +10,8 @@ public:
 
   void OnCollision();
 
+  void FollowPaddle(orxOBJECT* paddleObject);
+
 private:
   orxOBJECT* m_Object = nullptr;
   orxVECTOR m_Direction = orxVECTOR_0;

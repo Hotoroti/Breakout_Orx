@@ -1,14 +1,14 @@
 #include "Paddle.h"
 Paddle::Paddle(const  orxSTRING configName) {
-  m_Object = orxObject_CreateFromConfig(configName);
+  object = orxObject_CreateFromConfig(configName);
   orxVector_Set(&m_Direction, 0, 0, 0);
   orxVector_Set(&m_Speed, 0, 0, 0);
 }
 
 Paddle::~Paddle() {
-  if (m_Object) {
-    orxObject_Delete(m_Object);
-    m_Object = nullptr;
+  if (object) {
+    orxObject_Delete(object);
+    object = nullptr;
   }
 }
 
@@ -19,6 +19,6 @@ void Paddle::Update() {
 
   m_Speed.fX = m_Direction.fX * m_PADDLESPEED;
 
-  orxObject_SetSpeed(m_Object, &m_Speed);
+  orxObject_SetSpeed(object, &m_Speed);
 }
 
