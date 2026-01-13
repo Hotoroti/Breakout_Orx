@@ -1,5 +1,7 @@
 #include "Ball.h"
 Ball::Ball(const orxSTRING configName) {
+  orxConfig_Load("Ball.ini");
+
   m_Object = orxObject_CreateFromConfig(configName);
   orxDisplay_GetScreenSize(&m_ScreenWidth, &m_ScreenHeight);
 }

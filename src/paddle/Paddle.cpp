@@ -1,5 +1,7 @@
 #include "Paddle.h"
 Paddle::Paddle(const  orxSTRING configName) {
+  orxConfig_Load("paddle.ini");
+
   object = orxObject_CreateFromConfig(configName);
   orxVector_Set(&m_Direction, 0, 0, 0);
   orxVector_Set(&m_Speed, 0, 0, 0);
