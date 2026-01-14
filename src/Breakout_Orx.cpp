@@ -115,8 +115,11 @@ orxSTATUS orxFASTCALL Init()
   orxClock_Register(orxClock_Get(orxCLOCK_KZ_CORE), CameraUpdate, orxNULL, orxMODULE_ID_MAIN, orxCLOCK_PRIORITY_LOWER);
 
   orxEvent_AddHandler(orxEVENT_TYPE_PHYSICS, PhysicsEventHandler);
-
+    
   orxObject_CreateFromConfig("ArenaBackgroundObject");
+  orxObject_CreateFromConfig("ScoreObject");
+  orxObject_CreateFromConfig("LivesObject");
+  
   m_paddle = new Paddle("PaddleObject");
 
   m_wall = new Wall();
