@@ -14,6 +14,7 @@ Paddle* m_paddle;
 Ball* m_ball;
 Wall* m_wall;
 orxOBJECT* m_scoreObject;
+orxOBJECT* m_levelsObject;
 
 #ifdef __orxMSVC__
 
@@ -132,12 +133,12 @@ orxSTATUS orxFASTCALL Init()
     
   orxObject_CreateFromConfig("ArenaBackgroundObject");
   m_scoreObject = orxObject_CreateFromConfig("ScoreObject");
-  orxObject_CreateFromConfig("LivesObject");
+  m_levelsObject = orxObject_CreateFromConfig("LivesObject");
   
   m_paddle = new Paddle("PaddleObject");
 
   m_wall = new Wall();
-  m_ball = new Ball("BallObject");
+  m_ball = new Ball("BallObject", m_levelsObject);
 
   // Done!
   return orxSTATUS_SUCCESS;

@@ -1,8 +1,9 @@
 #include "Ball.h"
-Ball::Ball(const orxSTRING configName) {
+Ball::Ball(const orxSTRING configName, orxOBJECT* levelsObject) {
   orxConfig_Load("Ball.ini");
 
   m_Object = orxObject_CreateFromConfig(configName);
+  m_levelsObject = levelsObject;
   orxDisplay_GetScreenSize(&m_ScreenWidth, &m_ScreenHeight);
 
   m_CurrentBallSpeed = m_BASEBALLSPEED;
@@ -22,7 +23,18 @@ void Ball::Update() {
   }
 
   if (m_CurrentPos.fY > 0.5 * m_ScreenHeight) {
-    m_Direction.fY *= -1;
+    orxConfig_PushSection("PointValues");
+
+    orxFLOAT livesValue = orxConfig_GetFloat("Lives") - 1;
+    orxConfig_SetFloat("Lives", livesValue);
+
+    orxCHAR text[64];
+    orxString_NPrint(text, sizeof(text), "Score: %0.0f", livesValue);
+    orxObject_SetTextString(m_levelsObject, text);
+
+    orxConfig_PopSection();
+
+    m_HasStarted = false;
   }
 
   m_Speed.fX = m_Direction.fX * m_CurrentBallSpeed;

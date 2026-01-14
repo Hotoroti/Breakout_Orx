@@ -3,7 +3,7 @@
 class Ball
 {
 public:
-  Ball(const orxSTRING configName);
+  Ball(const orxSTRING configName, orxOBJECT* levelsObject);
   ~Ball();
 
   void Update();
@@ -18,6 +18,7 @@ public:
 
 private:
   orxOBJECT* m_Object = nullptr;
+  orxOBJECT* m_levelsObject = nullptr;
   orxVECTOR m_Direction = orxVECTOR_0;
   orxVECTOR m_Speed = orxVECTOR_0;
   orxVECTOR m_CurrentPos = orxVECTOR_0;
