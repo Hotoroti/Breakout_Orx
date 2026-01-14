@@ -58,6 +58,8 @@ void Wall::Init() {
 
       orxOBJECT* tempObject = orxObject_CreateFromConfig(objectName);
       orxObject_SetPosition(tempObject, &placePosition);
+
+      m_wallCount++;
     }
   }
 }
@@ -76,6 +78,17 @@ void Wall::Update() {
 
 }
 
-void Wall::OnCollision() {
+void Wall::OnCollision(orxOBJECT* wallOBJ, std::function<void(orxFLOAT)> increaseSpeed) {
+  m_wallCount--;
 
+  orxConfig_PushSection((orxSTRING)orxObject_GetName(wallOBJ));
+  increaseSpeed(orxConfig_GetFloat("SpeedIncrease"));
+  orxConfig_PopSection();
+
+  if (m_wallCount % 4 == 0) {
+    increaseSpeed(20);
+  }
+
+  if (m_wallCount <= 0)
+    Init();
 }

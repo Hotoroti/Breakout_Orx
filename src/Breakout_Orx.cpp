@@ -71,6 +71,9 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
     orxSTRING recipientObjectName = (orxSTRING)orxObject_GetName(pstRecipientObject);
 
     if (orxString_Compare(objectType, "wall") == 0) {
+      m_wall->OnCollision(pstSenderObject,
+        [ball = m_ball](orxFLOAT speedMod) {ball->IncreaseSpeed(speedMod); }
+      );
       orxObject_SetLifeTime(pstSenderObject, 0);
     }
 

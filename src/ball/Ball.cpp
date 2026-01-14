@@ -4,6 +4,8 @@ Ball::Ball(const orxSTRING configName) {
 
   m_Object = orxObject_CreateFromConfig(configName);
   orxDisplay_GetScreenSize(&m_ScreenWidth, &m_ScreenHeight);
+
+  m_CurrentBallSpeed = m_BASEBALLSPEED;
 }
 
 Ball::~Ball() {
@@ -26,8 +28,8 @@ void Ball::Update() {
     m_Direction.fY *= -1;
   }
 
-  m_Speed.fX = m_Direction.fX * m_BALLSPEED;
-  m_Speed.fY = m_Direction.fY * m_BALLSPEED;
+  m_Speed.fX = m_Direction.fX * m_CurrentBallSpeed;
+  m_Speed.fY = m_Direction.fY * m_CurrentBallSpeed;
 
   orxObject_SetSpeed(m_Object, &m_Speed);
 }
@@ -35,6 +37,7 @@ void Ball::Update() {
 void Ball::OnCollision() {
   m_Direction.fY *= -1;
 }
+
 
 void Ball::Start() {
   orxVector_Set(&m_Direction, 1, -1, 0);
@@ -50,4 +53,9 @@ void Ball::FollowPaddle(orxOBJECT* paddleObject) {
 
   orxVECTOR newPos = { paddlePos.fX, 350, m_CurrentPos.fZ };
   orxObject_SetWorldPosition(m_Object, &newPos);
+}
+
+void Ball::IncreaseSpeed(orxFLOAT speedMod) {
+  m_CurrentBallSpeed += speedMod;
+  orxLOG("Current speed: %f", m_CurrentBallSpeed);
 }

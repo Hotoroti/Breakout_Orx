@@ -556,3 +556,147 @@
 [22:05:28] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
 [22:05:28] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
 [22:05:28] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:12:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:12:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:12:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:12:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:12:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:12:26] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:12:27] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:12:27] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:12:27] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:16:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:16:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:16:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:16:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:16:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:16:57] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:16:58] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:16:58] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:16:58] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:17:53] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:17:53] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:17:53] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:17:53] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:17:53] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:17:53] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:17:54] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:17:54] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:17:54] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:18:32] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:18:32] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:18:32] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:18:32] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:18:32] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:18:32] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:18:33] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:18:33] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:18:33] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:19:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:19:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:19:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:19:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:19:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:19:28] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:19:29] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:19:29] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:19:29] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:23:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:23:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:23:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:23:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:23:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:23:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:23:17] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:23:17] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:23:17] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:24:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:24:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:24:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:24:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:24:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:24:41] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:24:42] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:24:42] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:24:42] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:25:40] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:25:40] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:25:40] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:25:40] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:25:40] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:25:40] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:25:41] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:25:41] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:25:41] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:26:59] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:26:59] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:26:59] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:26:59] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:26:59] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:26:59] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:27:00] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:27:00] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:27:00] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:27:37] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:27:37] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:27:37] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:27:37] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:27:37] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:27:37] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:27:38] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:27:38] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:27:38] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:28:12] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:28:12] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:28:12] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:28:12] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:28:12] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:28:12] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:28:13] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:28:13] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:28:13] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:29:11] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:29:11] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:29:11] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:29:11] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:29:11] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:29:11] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:29:11] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:29:11] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:29:11] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:29:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:29:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:29:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:29:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:29:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:29:50] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:29:51] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:29:51] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:29:51] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:32:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:32:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:32:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:32:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:32:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:32:16] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:32:16] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:32:16] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:32:16] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:33:44] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:33:44] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:33:44] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:33:44] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:33:44] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:33:44] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:33:45] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:33:45] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:33:45] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
+[10:35:19] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orxd.ini]: Begin include @Breakout_Orx.ini@
+[10:35:19] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3280)] [Breakout_Orx.ini]: Begin include @wall.ini@
+[10:35:19] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orx.ini]: End include @wall.ini@
+[10:35:19] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3286)] [Breakout_Orxd.ini]: End include @Breakout_Orx.ini@
+[10:35:19] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3133)] [Breakout_Orxd.ini]: <Display.Title> = Breakout (Debug) -> Breakout_Orx (Debug)
+[10:35:19] [CONFIG] [orxConfig.c:orxConfig_ProcessBuffer(3127)] [Breakout_Orxd.ini]: <Bundle.ExcludeList> += Breakout_Orxd.ini
+[10:35:19] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <paddle> with value <1>.
+[10:35:19] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <ball> with value <2>.
+[10:35:19] [PHYSICS] [orxPhysics.c:orxPhysics_GetCollisionFlagValue(291)] Adding collision flag <wall> with value <4>.
