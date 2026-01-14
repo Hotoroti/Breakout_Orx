@@ -110,6 +110,7 @@ orxSTATUS orxFASTCALL Init()
 
   orxEvent_AddHandler(orxEVENT_TYPE_PHYSICS, PhysicsEventHandler);
 
+  orxObject_CreateFromConfig("ArenaBackgroundObject");
   m_paddle = new Paddle("PaddleObject");
 
   m_wall = new Wall();
