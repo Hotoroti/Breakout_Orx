@@ -13,7 +13,7 @@ public:
 private:  
   orxVECTOR m_Direction = orxVECTOR_0;
   orxVECTOR m_Speed = orxVECTOR_0;
-  orxFLOAT  m_PADDLESPEED = 600;
+  orxFLOAT  m_PADDLESPEED = 700;
   orxBOOL m_CanMove = false;
 };
 

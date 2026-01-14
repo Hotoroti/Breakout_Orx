@@ -68,12 +68,12 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
     pstRecipientObject = orxOBJECT(_pstEvent->hRecipient);
 
     orxConfig_PushSection((orxSTRING)orxObject_GetName(pstSenderObject));
-    orxSTRING objectType = (orxSTRING)orxConfig_GetString("ObjectType");
+    orxSTRING senderObjectType = (orxSTRING)orxConfig_GetString("ObjectType");
     orxConfig_PopSection();
 
     orxSTRING recipientObjectName = (orxSTRING)orxObject_GetName(pstRecipientObject);
 
-    if (orxString_Compare(objectType, "wall") == 0) {
+    if (orxString_Compare(senderObjectType, "wall") == 0) {
       m_wall->OnCollision(pstSenderObject,
         [ball = m_ball](orxFLOAT speedMod) {ball->IncreaseSpeed(speedMod); }
       );
@@ -81,7 +81,12 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
     }
 
     if (orxString_Compare(recipientObjectName, "BallObject") == 0) {
-      m_ball->OnCollision(payload->vNormal);
+      if (orxString_Compare(senderObjectType, "paddle") == 0) {
+        m_ball->OnPaddleCollision(pstSenderObject);
+      }
+      else {
+        m_ball->OnWallCollision(payload->vNormal);
+      }
     }
   }
   return orxSTATUS_SUCCESS;

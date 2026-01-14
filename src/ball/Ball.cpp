@@ -31,13 +31,38 @@ void Ball::Update() {
   orxObject_SetSpeed(m_Object, &m_Speed);
 }
 
-void Ball::OnCollision(orxVECTOR collisionNormal) {
+void Ball::OnWallCollision(orxVECTOR collisionNormal) {
   if (orxMath_Abs(collisionNormal.fX) > orxMath_Abs(collisionNormal.fY)) {
     m_Direction.fX *= -1;
   }
   else {
     m_Direction.fY *= -1;
   }
+}
+
+void Ball::OnPaddleCollision(orxOBJECT* paddleOBJ)
+{
+  orxVECTOR ballPos, paddlePos;
+  orxObject_GetWorldPosition(m_Object, &ballPos);
+  orxObject_GetWorldPosition(paddleOBJ, &paddlePos);
+
+  orxOBOX box;
+  orxObject_GetBoundingBox(paddleOBJ, &box);
+
+  orxFLOAT paddleHalfWidth = box.vX.fX;
+
+  orxFLOAT hit =
+    (ballPos.fX - paddlePos.fX) / paddleHalfWidth;
+
+  hit = orxCLAMP(hit, -1.0f, 1.0f);
+
+  orxFLOAT maxAngle = orxMATH_KF_PI * 0.33f;
+  orxFLOAT angle = hit * maxAngle;
+
+  m_Direction.fX = orxMath_Sin(angle);
+  m_Direction.fY = -orxMath_Cos(angle);
+
+  orxVector_Normalize(&m_Direction, &m_Direction);
 }
 
 void Ball::Start() {

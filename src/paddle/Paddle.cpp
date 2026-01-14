@@ -20,7 +20,6 @@ void Paddle::Update() {
       (orxInput_IsActive("GoLeft") ? 1.0f : 0.0f));
 
   m_Speed.fX = m_Direction.fX * m_PADDLESPEED;
-
   orxObject_SetSpeed(object, &m_Speed);
 }
 
