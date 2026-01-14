@@ -14,6 +14,18 @@ Paddle::~Paddle() {
   }
 }
 
+void Paddle::OnCollision()
+{
+  orxConfig_PushSection("PaddleSettings");
+  orxVECTOR position;
+  orxObject_GetPosition(object, &position);
+  if (position.fY > orxConfig_GetFloat("BaseYPosition")) {
+    position.fY = orxConfig_GetFloat("BaseYPosition");
+  }
+  orxConfig_PopSection();
+  orxObject_SetPosition(object, &position);
+}
+
 void Paddle::Update() {
   m_Direction.fX =
     (orxInput_IsActive("GoRight") ? 1.0f : 0.0f -

@@ -82,6 +82,10 @@ void Ball::FollowPaddle(orxOBJECT* paddleObject) {
 }
 
 void Ball::IncreaseSpeed(orxFLOAT speedMod) {
-  m_CurrentBallSpeed += speedMod;
-  orxLOG("Current speed: %f", m_CurrentBallSpeed);
+  orxConfig_PushSection("BallSettings");
+  if (m_CurrentBallSpeed < orxConfig_GetFloat("BallMaxSpeed")) {
+    m_CurrentBallSpeed += speedMod;
+    orxLOG("Current speed: %f", m_CurrentBallSpeed);
+  }
+  orxConfig_PopSection();
 }

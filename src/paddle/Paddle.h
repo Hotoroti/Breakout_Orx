@@ -8,6 +8,8 @@ public:
   Paddle(const orxSTRING connfigName);
   ~Paddle();
 
+  void OnCollision();
+
   void Update();
 
 private:  

@@ -83,6 +83,7 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
     if (orxString_Compare(recipientObjectName, "BallObject") == 0) {
       if (orxString_Compare(senderObjectType, "paddle") == 0) {
         m_ball->OnPaddleCollision(pstSenderObject);
+        m_paddle->OnCollision();
       }
       else {
         m_ball->OnWallCollision(payload->vNormal);
