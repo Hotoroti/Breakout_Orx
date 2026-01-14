@@ -78,11 +78,12 @@ void Wall::Update() {
 
 }
 
-void Wall::OnCollision(orxOBJECT* wallOBJ, std::function<void(orxFLOAT)> increaseSpeed) {
+void Wall::OnCollision(orxOBJECT* wallOBJ, std::function<void(orxFLOAT)> increaseSpeed, std::function<void(orxFLOAT)> increaseScore) {
   m_wallCount--;
 
   orxConfig_PushSection((orxSTRING)orxObject_GetName(wallOBJ));
   increaseSpeed(orxConfig_GetFloat("SpeedIncrease"));
+  increaseScore(orxConfig_GetFloat("Points"));
   orxConfig_PopSection();
 
   if (m_wallCount % 4 == 0) {

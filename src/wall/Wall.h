@@ -7,7 +7,7 @@ public:
   Wall();
   ~Wall();
   void Update();
-  void OnCollision(orxOBJECT* wallOBJ, std::function<void(orxFLOAT)> increaseSpeed);
+  void OnCollision(orxOBJECT* wallOBJ, std::function<void(orxFLOAT)> increaseSpeed, std::function<void(orxFLOAT)> increaseScore);
 
 private:
   orxU32 m_wallCount = 0;

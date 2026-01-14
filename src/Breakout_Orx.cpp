@@ -8,10 +8,12 @@
 #include "paddle/Paddle.h"
 #include "ball/Ball.h"
 #include "wall/Wall.h"
+#include <string>
 
 Paddle* m_paddle;
 Ball* m_ball;
 Wall* m_wall;
+orxOBJECT* m_scoreObject;
 
 #ifdef __orxMSVC__
 
@@ -75,7 +77,19 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
 
     if (orxString_Compare(senderObjectType, "wall") == 0) {
       m_wall->OnCollision(pstSenderObject,
-        [ball = m_ball](orxFLOAT speedMod) {ball->IncreaseSpeed(speedMod); }
+        [ball = m_ball](orxFLOAT speedMod) {ball->IncreaseSpeed(speedMod); },
+        [score = m_scoreObject](orxFLOAT points) {
+          orxConfig_PushSection("PointValues");
+
+          orxFLOAT scoreValue = orxConfig_GetFloat("Score") + points;
+          orxConfig_SetFloat("Score", scoreValue);
+
+          orxCHAR text[64];
+          orxString_NPrint(text, sizeof(text), "Score: %03.0f", scoreValue);
+          orxObject_SetTextString(score, text);
+
+          orxConfig_PopSection();
+        }
       );
       orxObject_SetLifeTime(pstSenderObject, 0);
     }
@@ -117,7 +131,7 @@ orxSTATUS orxFASTCALL Init()
   orxEvent_AddHandler(orxEVENT_TYPE_PHYSICS, PhysicsEventHandler);
     
   orxObject_CreateFromConfig("ArenaBackgroundObject");
-  orxObject_CreateFromConfig("ScoreObject");
+  m_scoreObject = orxObject_CreateFromConfig("ScoreObject");
   orxObject_CreateFromConfig("LivesObject");
   
   m_paddle = new Paddle("PaddleObject");
