@@ -59,6 +59,9 @@ void orxFASTCALL CameraUpdate(const orxCLOCK_INFO *_pstClockInfo, void *_pContex
 orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
 {
   if (_pstEvent->eID == orxPHYSICS_EVENT_CONTACT_ADD) {
+    orxPHYSICS_EVENT_PAYLOAD* payload =
+      (orxPHYSICS_EVENT_PAYLOAD*)_pstEvent->pstPayload;
+
     orxOBJECT* pstRecipientObject, * pstSenderObject;
 
     pstSenderObject = orxOBJECT(_pstEvent->hSender);
@@ -78,7 +81,7 @@ orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT* _pstEvent)
     }
 
     if (orxString_Compare(recipientObjectName, "BallObject") == 0) {
-      m_ball->OnCollision();
+      m_ball->OnCollision(payload->vNormal);
     }
   }
   return orxSTATUS_SUCCESS;

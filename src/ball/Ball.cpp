@@ -34,8 +34,13 @@ void Ball::Update() {
   orxObject_SetSpeed(m_Object, &m_Speed);
 }
 
-void Ball::OnCollision() {
-  m_Direction.fY *= -1;
+void Ball::OnCollision(orxVECTOR collisionNormal) {
+  if (orxMath_Abs(collisionNormal.fX) > orxMath_Abs(collisionNormal.fY)) {
+    m_Direction.fX *= -1;
+  }
+  else {
+    m_Direction.fY *= -1;
+  }
 }
 
 

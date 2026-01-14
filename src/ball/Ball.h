@@ -8,7 +8,7 @@ public:
 
   void Update();
 
-  void OnCollision();
+  void OnCollision(orxVECTOR collisionNormal);
 
   void FollowPaddle(orxOBJECT* paddleObject);
 
